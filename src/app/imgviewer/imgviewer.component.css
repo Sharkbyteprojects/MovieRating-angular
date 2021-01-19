@@ -1,6 +1,7 @@
 img{
-    max-height: 560px;
-    max-width: 900px;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 50%;
 }
 div.imgview{
     height: 562px;
@@ -8,7 +9,7 @@ div.imgview{
     border-width: 2px;
     border-style: solid;
     border-radius: 3px;
-    width: 902px;
+    width: 100%;
     min-width: 200px;
 }
 button{
