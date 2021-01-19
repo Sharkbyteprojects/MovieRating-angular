@@ -1,0 +1,14 @@
+<div>
+    <button *ngIf="overlap==''" (click)="tv()">{{st}} Images to {{titlem}}</button>
+    <div *ngIf="visibles">
+        <p *ngIf="overlap==''">
+            <button *ngIf="prev" (click)="varset(false)" class="min">&lt;</button>
+            {{view + 1}}/{{imsrc.length}}
+            <button *ngIf="nxb" (click)="varset(true)" class="min">&gt;</button>
+        </p>
+        <div class="imgview">
+            <img [src]="imsrc[view]" alt="Loading IMAGE" [style]="overlap" (click)="toggre()" title="Click to Resize">
+        </div>
+        <ng-content></ng-content>
+    </div>
+</div>

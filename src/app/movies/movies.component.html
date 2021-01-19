@@ -1,0 +1,22 @@
+<div>
+    <div class="bordered" *ngFor="let e of hello">
+        <div class="nslect">
+            <img [src]="e.imgsrc[0]" alt="Loading">
+        </div>
+        <h1 class="nslect"><strong>{{e.moviename}}</strong> - {{e.year}}</h1>
+        <app-rating *ngIf="e.score" class="nselect" [ratingid]="e.score"></app-rating>
+        <p *ngIf="e.desc&&e.desc!=''">{{e.desc}}</p>
+        <app-imgviewer [imsrc]="e.imgsrc" *ngIf="e.imgsrc.length>0" [titlem]="e.moviename">
+            <p *ngIf="e.iminf&&e.iminf!=''">{{e.iminf}}</p>
+        </app-imgviewer>
+        <div *ngIf="e.trailer.length>0">
+            <p><strong>Links:</strong></p>
+            <ul>
+                <li *ngFor="let t of e.trailer"><a target="_blank" [href]="t.url">{{t.name}}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<ng-content></ng-content>
+<br>
+<button (click)="loadit()" class="nslect">Reload Content</button>

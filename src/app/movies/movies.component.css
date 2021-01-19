@@ -1,4 +1,4 @@
-* {
+.nslect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
        -khtml-user-select: none; /* Konqueror HTML */
@@ -6,4 +6,20 @@
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome and Opera */
+}
+img{
+    max-height: 100px;
+    max-width: 100px;
+}
+div.bordered{
+    border-color:rgb(111, 207, 0);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+}
+ul{
+    max-height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
 }

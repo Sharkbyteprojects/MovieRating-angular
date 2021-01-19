@@ -1,3 +1,20 @@
+img{
+    max-height: 560px;
+    max-width: 900px;
+}
+div.imgview{
+    height: 562px;
+    border-color:blue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    width: 902px;
+    min-width: 200px;
+}
+button{
+    line-height: 2;
+    border-radius: 2px;
+}
 * {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -6,4 +23,8 @@
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome and Opera */
-}
+  }
+  .min{
+      color:#ffff;
+      background-color: #313131;
+  }

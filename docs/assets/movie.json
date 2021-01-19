@@ -1,0 +1,23 @@
+[
+    {
+        "moviename": "Captain Marvel",
+        "year": 2019,
+        "score": 10,
+        "desc": "Marvel Studios’ Captain Marvel takes you on a spectacular adventure from the 1990s, tracing the path of Carol Danvers (Brie Larson) as she becomes one of the most powerful heroes in the universe. When a galactic war reaches Earth, she meets young agent Nick Fury (Samuel L. Jackson) at the center of a maelstrom, leading to her ultimate destiny as an Avenger. The Beginning of the Story!",
+        "imgsrc": [
+            "./assets/images/captainMarvel/1.jpg",
+            "./assets/images/captainMarvel/2.jpg",
+            "./assets/images/captainMarvel/3.jpg",
+            "./assets/images/captainMarvel/5.jpg",
+            "./assets/images/captainMarvel/4.jpg",
+            "./assets/images/captainMarvel/6.jpg",
+            "./assets/images/captainMarvel/7.jpg"
+        ],
+        "iminf": "Images from marvel.com",
+        "trailer":[
+            { "url": "https://www.marvel.com/movies/captain-marvel", "name": "On Marvel.com" },
+            { "url": "https://www.youtube.com/watch?v=Z1BCujX3pw8", "name": "Trailer 1 Youtube" },
+            { "url": "https://www.youtube.com/watch?v=0LHxvxdRnYc", "name": "Trailer 2 Youtube" }
+        ]
+    }
+]
