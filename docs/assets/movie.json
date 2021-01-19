@@ -19,5 +19,19 @@
             { "url": "https://www.youtube.com/watch?v=Z1BCujX3pw8", "name": "Trailer 1 Youtube" },
             { "url": "https://www.youtube.com/watch?v=0LHxvxdRnYc", "name": "Trailer 2 Youtube" }
         ]
+    },
+	
+	{
+        "moviename": "Day after Tomorrow",
+        "year": 2004,
+        "score": 6,
+        "desc": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age. ",
+        "imgsrc": [
+            "./assets/images/images/image.jpg"
+        ],
+        "iminf": "Image from imdb.com",
+        "trailer":[
+            { "url": "https://www.imdb.com/title/tt0319262/", "name": "IMDb" }
+        ]
     }
 ]
