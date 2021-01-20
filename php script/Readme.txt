@@ -2,3 +2,5 @@ To use it, stor it in the location of the movie.json, then search in the file "m
 
 
 Also Possible: rename it to index.php and store it in a folder named movie.json
+
+Example Service: http://sharkbyte.bplaced.net/movies/ (Can changed via sql server, but currently only from admins)
