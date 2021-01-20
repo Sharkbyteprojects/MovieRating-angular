@@ -18,6 +18,7 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         $mycontentrail .= ('{"moviename":"'.$row["moviename"].'",');
         $mycontentrail .= ('"year": ' . $row["year"] . ",");
+		$mycontentrail .= ('"score": ' . $row["score"] . ",");
         $mycontentrail .= ('"desc": "' . $row["description"] . "\",");
         $mycontentrail .= ('"imgsrc": [' . $row["imgsrc"] . "],");
         $mycontentrail .= ('"imginf": "' . $row["imginf"] . "\",");
